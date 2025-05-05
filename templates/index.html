@@ -1,0 +1,8 @@
+{{define "content"}}
+<h2>Posts</h2>
+<ul>
+    {{range .}}
+    <li><a href="/post/{{.Title}}">{{.Title}}</a></li>
+    {{end}}
+</ul>
+{{end}}
